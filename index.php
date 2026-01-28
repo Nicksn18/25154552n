@@ -15,7 +15,7 @@ if(!isset($_SESSION['usuario'])){
 
 .tabela-extintores {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 20px;
     max-width: 1200px;
     margin: auto;
@@ -120,7 +120,6 @@ nav a:active {
     background: white;
     padding: 50px;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -215,6 +214,24 @@ nav a:active {
       <li>Indústria</li>
     </ul>
   </div>
+
+  <div class="coluna">
+    <div class="cabeca">Espuma Mecânica</div>
+
+    <div class="icone">🧯</div>
+
+    <div class="classes">
+      <span class="classe b">B</span>
+    
+    </div>
+
+    <ul>
+      <li>Oficinas mecânicas</li>
+      <li>Indústria</li>
+      <li>Aeroportos e Hangar</li>
+    </ul>
+  </div>
+
 
 </div>
 

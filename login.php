@@ -54,10 +54,11 @@ nav {
 .container{
     max-width: 400px;
     margin: 50px auto;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    color:white;
 
     
 }
@@ -90,19 +91,21 @@ button:hover{
     font-size: 1.7em;
 }
 
+img{
+    width: 100px;
+    float:left;
+}
+
 </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav>
-    Sistema de Controle de Extintores<br>
-        <Span class="extintack">ExtinTrack</span>
-</nav>
+
 
 <div class="container">
 
-   
+   <img src="logovermelha-removebg-preview.png" alt="">
 
         <h2 class="sistema">Acesso ao Sistema</h2>
 
