@@ -66,6 +66,42 @@ if(!isset($_SESSION['usuario'])){
 .classe.b { background: #c62828; }
 .classe.c { background: #1565c0; }
 
+
+#servicos {
+    padding-top:80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.icons img {
+    width: 80px;
+    padding-bottom:15px;
+    
+}
+
+.produtos {
+    background: #f4fbff;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+.produto {
+    background: #c62828;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
 /* Lista */
 ul {
     list-style: none;
@@ -120,6 +156,7 @@ nav a:active {
     background: white;
     padding: 50px;
     border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -138,6 +175,11 @@ nav a:active {
 #tabelas h1, h2 {
     text-align:center;
     font-size:2em;
+}
+
+#textinho p {
+    text-align:center;
+    font-size:1.5em;
 }
 </style>
 </head>
@@ -215,23 +257,69 @@ nav a:active {
     </ul>
   </div>
 
+
   <div class="coluna">
-    <div class="cabeca">Espuma Mecânica</div>
+    <div class="cabeca">Espuma Mecânicas</div>
 
     <div class="icone">🧯</div>
 
     <div class="classes">
+      <span class="classe a">A</span>
       <span class="classe b">B</span>
-    
     </div>
 
     <ul>
-      <li>Oficinas mecânicas</li>
-      <li>Indústria</li>
-      <li>Aeroportos e Hangar</li>
+      <li>Indústrias e Fábricas</li>
+      <li>Postos de Combustível e Garagens</li>
+      <li>Áreas de Armazenamento de Produtos Químicos</li>
     </ul>
   </div>
 
+</div>
+
+    <div id="textinho">
+        <p>Desde 2000 a ExtinTrack atua no ramo de comércio, representação e serviços de equipamentos contra incêndio. São eles: extintores de combate a incêndio e demais sistemas necessários à prevenção e segurança contra incêndio.</p>
+
+    <p>Temos como nosso principal valor as pessoas, onde acreditamos que:</p>
+
+
+<p>"Uma equipe é mais do que um grupo de pessoas. É a soma de muitas energias. Mais que a divisão de tarefas, é a união em torno de um objetivo. A parceria cria a confiança. A habilidade cria o respeito e o sincronismo de todos e produz resultados notáveis. Eis a fórmula do sucesso."</p>
+
+    </div>
+
+<div id="servicos">
+
+    <div class="produtos">
+
+        <div class="icons"><img src="extintor-de-incendio.png" alt=""></div>
+
+        <div class="produto">Produtos
+
+        </div>
+
+    </div>
+
+
+    <div class="produtos">
+
+        <div class="icons"><img src="chave-inglesa (1).png" alt=""></div>
+
+        <div class="produto">Serviços
+
+        </div>
+
+    </div>
+
+
+    <div class="produtos">
+
+        <div class="icons"><img src="dinheiro.png" alt=""></div>
+
+        <div class="produto">Orçamento
+
+        </div>
+
+    </div>
 
 </div>
 
