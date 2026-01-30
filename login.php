@@ -65,10 +65,11 @@ nav {
 /* Inputs e botão */
 input, button{
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
+    
 }
 button{
     background-color: #b71c1c;
@@ -80,6 +81,13 @@ button{
 button:hover{
     background-color: #d32f2f;
 }
+
+img {
+    width: 100px;
+    float:left;
+}
+
+
 
 
 
@@ -94,7 +102,7 @@ button:hover{
 
 <div class="container">
 
-   
+    <img src="logovermelha-removebg-preview.png" alt="">
 
         <h2 class="sistema">Acesso ao Sistema</h2>
 
@@ -102,12 +110,10 @@ button:hover{
 
     <form method="POST">
         <div class="input-group">
-            <i class="fa-regular fa-user fa-bounce fa-2"></i>
             <input type="text" name="usuario" placeholder="Usuário" required>
         </div>
 
         <div class="input-group">
-            <i class="fa-solid fa-lock fa-2"></i>
             <input type="password" name="senha" placeholder="Senha" required>
         </div>
 

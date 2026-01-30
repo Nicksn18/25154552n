@@ -19,6 +19,7 @@ if(!isset($_SESSION['usuario'])){
     gap: 20px;
     max-width: 1200px;
     margin: auto;
+    
 }
 
 .coluna {
@@ -26,6 +27,7 @@ if(!isset($_SESSION['usuario'])){
     border-radius: 18px;
     padding: 10px;
     text-align: center;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 /* Cabeça vermelha */
@@ -116,6 +118,8 @@ ul li {
 
 body {
     margin:0;
+    background:url(plano-de-fundo.png) ;
+
 }
 
 /* Navbar */
@@ -153,7 +157,7 @@ nav a:active {
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.2);
     padding: 50px;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -180,6 +184,7 @@ nav a:active {
 #textinho p {
     text-align:center;
     font-size:1.5em;
+    color:white;
 }
 </style>
 </head>
