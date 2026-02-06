@@ -19,6 +19,7 @@ if(!$result){
 <title>Lista de Extintores</title>
 <link rel="stylesheet" href="css/style.css">
 <style>
+
 /* Navbar */
 nav {
     background-color: #b71c1c;

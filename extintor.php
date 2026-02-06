@@ -26,6 +26,12 @@ if(isset($_POST['cadastrar'])){
 <link rel="stylesheet" href="css/style.css">
 <style>
 /* Navbar */
+
+    body {
+        margin:0;
+        background:url(plano-de-fundo.png)
+    }
+
 nav {
     background-color: #b71c1c;
     padding: 15px 0;
@@ -60,10 +66,11 @@ nav a:active {
 .container{
     max-width: 900px;
     margin: 50px auto;
-    background: white;
+    background: rgba(000, 000, 000, 0.3);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    color:white;
 }
 
 /* Form grid */

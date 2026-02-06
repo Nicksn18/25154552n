@@ -11,6 +11,16 @@ $result = $conn->query("SELECT * FROM empresas");
 <title>Lista de Empresas</title>
 <link rel="stylesheet" href="css/style.css">
 <style>
+
+body {
+    margin:0;
+    background:url(plano-de-fundo.png)
+}
+
+h2 {
+    color:white;
+}
+
 /* Navbar */
 nav {
     background-color: #b71c1c;
@@ -44,7 +54,7 @@ nav a:active {
 .container {
     max-width: 1200px;
     margin: 50px auto;
-    background: white;
+    background: rgba(000, 000, 000, 0.2);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
